@@ -1,0 +1,14 @@
+
+POST http://localhost:4005/users
+Content-Type: application/json
+
+{
+    "firstName": "William",
+    "surnames": "dos Santos Aveiro",
+    "sex": "M",
+    "dateOfBirth": "1999-08-11"
+}
+
+###
+
+GET http://localhost:4005/users
